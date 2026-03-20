@@ -34,7 +34,6 @@ while True:
         print("ты выбрал добавить")
         add_task(input('Введи задачу:'))
         save_tasks()
-    # продолжи сам..
     elif choice == '2':
         print('ты выбрал удалить')
         if len(todo_list) == 0:
